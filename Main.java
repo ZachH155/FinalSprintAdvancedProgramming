@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import AccountCreation.AccountCreation;
-
 public class Main {
     public static void main(String[] args) {
         //Main menu
@@ -38,7 +36,7 @@ public class Main {
         if (userInputInt == 1) {
             
         } else if (userInputInt == 2) {
-            AccountCreation.accountCreation();
+            
         } else if (userInputInt == 3) {
             System.exit(0);
         }
